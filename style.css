@@ -21,6 +21,9 @@ a {
 div {
 	display: block;
 }
+input {
+	outline: none;
+}
 header {
 	width: 980px;
 	margin: 20px auto 0;
@@ -118,6 +121,39 @@ header .top_menu {
 }
 .content .left_block .social {
 	float: left;
+}
+.content .left_block .social div{
+	float: left;
+	width: 44px;
+	text-align: right;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: 700;
+	height: 22px;
+	padding-top: 10px;
+	margin-left: 15px;
+	color: #999;
+}
+.content .left_block .social div:hover{
+	color: #a10032;
+}
+.content .left_block .social .vk {	
+	background: url(./img/vk.png) rgba(255, 255, 253, 0.1) no-repeat 0px center;
+}
+.content .left_block .social .vk:hover {	
+	background: url(./img/vk_hover.png) rgba(255, 255, 253, 0.1) no-repeat 0px center;
+}
+.content .left_block .social .tw {
+	background: url(./img/tw.png) rgba(255, 255, 253, 0.1) no-repeat 0px center;
+}
+.content .left_block .social .tw:hover {
+	background: url(./img/tw_hover.png) rgba(255, 255, 253, 0.1) no-repeat 0px center;
+}
+.content .left_block .social .fb {
+	background: url(./img/fb.png) rgba(255, 255, 253, 0.1) no-repeat 10px center;
+}
+.content .left_block .social .fb:hover {
+	background: url(./img/fb_hover.png) rgba(255, 255, 253, 0.1) no-repeat 10px center;
 }
 .content .left_block .tags {
 	float: right;
@@ -230,6 +266,137 @@ header .top_menu {
 	background-color: #363636;
 	margin-top: 27px;
 }
+.menu_bottom .bot_block {
+	margin: 0 auto;
+	width: 980px;
+}
+.menu_bottom .bot_block .menu_items {
+	width: 750px;
+	height: 380px;
+	font-family: Arial;
+	display: table;
+	line-height: 22px;
+	padding-top: 10px;
+	float: left;
+}
+.menu_bottom .bot_block .menu_items .row{
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+
+}
+.menu_bottom .bot_block .menu_items .title{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	width: 200px;
+	margin-top: 20px;;;
+}
+.menu_bottom .bot_block .menu_items a{
+	color: darkgrey;
+	font-size: 12px;
+	font-weight: 400;
+	display: block;
+	width: 200px;
+}
+.menu_bottom .bot_block .right_block {
+	float: right;
+	width: 210px;
+	margin-top: 27px;
+
+}
+.menu_bottom .bot_block .right_block .lang {
+	width: 100%;
+	overflow: hidden;
+	
+}
+.menu_bottom .bot_block .right_block .lang img{
+	float: left;
+
+}
+.menu_bottom .bot_block .right_block .lang select{
+	float: left;
+	border: none;
+	background: url(./img/select.png) #363636 no-repeat right center;
+	color: #fffffc;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	outline: none;
+	margin-left: 10px;
+	width: 80px;
+	white-space: nowrap;
+	-webkit-appearance: button;
+
+}
+.menu_bottom .bot_block .right_block .lang option {
+	border:none;
+	background: none;
+	outline: none;
+}
+.menu_bottom .bot_block .cart {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 11px;
+
+}
+.menu_bottom .bot_block .cart .img_cart{
+	float: left;
+
+}
+.menu_bottom .bot_block .cart .img_cart_cal{
+	position: absolute;
+	margin: -3px 0 0 -10px;
+
+}
+.menu_bottom .bot_block .cart .text_cal{
+	color: black;
+	font-family: Arial;
+	font-size: 8px;
+	font-weight: 400;
+	line-height: 16px;
+	position: absolute;
+	margin: -4px 0 0 18px;
+}
+.menu_bottom .bot_block .cart .text{
+	color: #fffffc;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	float: left;
+	margin-left: 19px;
+}
+.menu_bottom .bot_block .lk {
+	margin-left: 4px;
+
+}
+.menu_bottom .bot_block .lk .text{
+	margin-left: 21px;
+
+}
+.menu_bottom .bot_block .search {
+	width: 199px;
+	height: 30px;
+	background-color: ;
+	border: 1px solid #797979;
+	background: url(./img/search_inp.png) rgba(255, 255, 253, 0.1) no-repeat 180px center;
+	margin-top: 46px;
+	padding-left: 11px;
+}
+.menu_bottom .bot_block .other_cat {
+	  margin-top: 50px;
+}
+.menu_bottom .bot_block .other_cat a{
+	color: white;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	display: block;
+	margin-bottom: 20px;
+}
 footer {
 	background-color: #272727;
 	height: 40px;
@@ -238,4 +405,28 @@ footer {
 footer .footer_block {
 	margin: 0 auto;
 	width: 980px;
+}
+footer .footer_block .copy {
+	color: #999;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	float: left;
+  	margin-top: 15px;
+}
+footer .footer_block .social {
+	float: right;
+	margin-top: 8px;
+
+}
+footer .footer_block .social img{
+	vertical-align: middle;
+	
+}
+footer .footer_block .social a{
+	display: block;
+	float: left;
+	margin-left: 20px;
+	
 }
