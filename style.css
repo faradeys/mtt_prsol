@@ -170,10 +170,79 @@ header .top_menu {
 	margin-top: 2px;
 
 }
+.content .left_block .item{
+	overflow: hidden;
+	margin-bottom: 23px;
+}
+.content .left_block .item img{
+	float: left;
+  	margin-right: 30px;
+}
+.content .left_block .item .title{
+	color: black;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 25px;
+	font-family: 'RotondaC';
+}
+.content .left_block .item .text{
+	color: #333;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	margin-top: 16px;
+}
+.content .left_block .item .data{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #333;
+	text-align: right;
+  	margin-right: 20px;
+  	margin-top: 20px;
+}
+.content .left_block .item .data a{
+	color: #ae2a53;
+	float: none;
+  	display: inline-block;
+}
+.content .left_block  .pagenat{
+
+}
+.content .left_block  .pagenat div,.content .left_block  .pagenat a{
+	float: left;
+	display: block;
+	color: #a10033;
+	padding-top: 7px;
+}
+.content .left_block .pagenat .back{
+	margin: 0 18px;
+}
+.content .left_block .pagenat .num{
+	width: 30px;
+	height: 23px;
+	background-color: white;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-left: 10px;
+}
+.content .left_block .pagenat .select{
+	background-color: #999;
+	border: 1px solid #ccc;
+	color: #fff;
+}
+.content .left_block .pagenat .pic{
+	margin-left: 10px;
+}
 .content .right_block .feedback {
 	width: 230px;
 	height: 245px;
 	background-color: #e6e6e6;
+}
+.content .right_block .feedback2 {
+	height: 325px;
 }
 .content .right_block .feedback .text {
 	color: black;
@@ -190,6 +259,12 @@ header .top_menu {
 	font-weight: 400;
 	line-height: 16px;
 	margin: 38px 20px 9px;
+}
+.content .right_block .feedback .mail_title2 {
+	margin-top: 10px;
+}
+.content .right_block .feedback .mail_title3 {
+	margin-top: 30px;
 }
 .content .right_block .feedback .btn_block{
 	width: 100%;
