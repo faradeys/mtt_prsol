@@ -55,6 +55,9 @@ header .top_menu {
 	margin-left: 60px;
 	float: left;
 }
+header .top_menu a:hover{
+	text-decoration: underline;
+}
 .content {
 	width: 970px;
 	margin: 21px auto 0;
@@ -113,6 +116,7 @@ header .top_menu {
 	float: right;
 	font-family: Arial;
 	padding-right: 20px;
+	font-size: 14px;
 }
 .content .left_block  .line {
 	border-bottom: 1px solid #ccc;
@@ -120,6 +124,9 @@ header .top_menu {
 	margin-bottom: 18px;
 }
 .content .left_block .social {
+	float: left;
+}
+.content .left_block .social a{
 	float: left;
 }
 .content .left_block .social div{
@@ -159,11 +166,13 @@ header .top_menu {
 	float: right;
 }
 .content .left_block .tags .tags_text{
-	width: 244px;
-	float: right;
-	margin-left: 12px;
-	font-style: oblique;
-	color: #666;
+	  width: 280px;
+	  float: right;
+	  margin-left: 12px;
+	  font-style: oblique;
+	  color: #666;
+	  font-size: 14px;
+	  margin-right: 30px;
 }
 .content .left_block .tags img {
 	float: left;
@@ -335,9 +344,12 @@ header .top_menu {
 	width: 100%;
 	font-style: italic;
 }
+.menu_bottom .bot_block .right_block a:hover{
+	color: #CCC;
+}
 .menu_bottom {
 	width: 100%;
-	height: 470px;
+	height: 430px;
 	background-color: #363636;
 	margin-top: 27px;
 }
@@ -357,7 +369,7 @@ header .top_menu {
 .menu_bottom .bot_block .menu_items .row{
 	width: 200px;
 	float: left;
-	margin-left: 50px;
+	margin-right: 50px;
 
 }
 .menu_bottom .bot_block .menu_items .title{
@@ -372,7 +384,12 @@ header .top_menu {
 	font-size: 12px;
 	font-weight: 400;
 	display: block;
-	width: 200px;
+	width: 201px;
+	line-height: 14px;
+  	margin-top: 9px;
+}  
+.menu_bottom .bot_block .menu_items a:hover{
+	color: #CCC;
 }
 .menu_bottom .bot_block .right_block {
 	float: right;
@@ -459,6 +476,7 @@ header .top_menu {
 	background: url(./img/search_inp.png) rgba(255, 255, 253, 0.1) no-repeat 180px center;
 	margin-top: 46px;
 	padding-left: 11px;
+	color: #fff;
 }
 .menu_bottom .bot_block .other_cat {
 	  margin-top: 50px;
@@ -470,7 +488,7 @@ header .top_menu {
 	font-weight: 400;
 	line-height: 14px;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 footer {
 	background-color: #272727;
@@ -492,7 +510,7 @@ footer .footer_block .copy {
 }
 footer .footer_block .social {
 	float: right;
-	margin-top: 8px;
+	margin-top: 0px;
 
 }
 footer .footer_block .social img{
@@ -502,6 +520,50 @@ footer .footer_block .social img{
 footer .footer_block .social a{
 	display: block;
 	float: left;
-	margin-left: 20px;
 	
+}
+.vk_icon, .fb_icon, .in_icon, .tw_icon, .g_icon, .pi_icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 0px 10px 5px 0;
+  background-image: url(./img/social_icons.png);
+  background-repeat: no-repeat;
+}
+.g_icon {
+  background-position: -310px bottom;
+}
+.fb_icon {
+  background-position: -250px bottom;
+}
+.in_icon {
+  background-position: -190px bottom;
+}
+.pi_icon {
+  background-position: -130px bottom;
+}
+.tw_icon {
+  background-position: -70px bottom;
+}
+.vk_icon {
+  background-position: -10px bottom;
+}
+.vk_icon:hover {
+  background-position: -10px top;
+}
+.tw_icon:hover {
+  background-position: -70px top;
+}
+.pi_icon:hover {
+  background-position: -130px top;
+}
+.in_icon:hover {
+  background-position: -190px top;
+}
+.fb_icon:hover {
+  background-position: -250px top;
+}
+.g_icon:hover {
+  background-position: -310px top;
 }
