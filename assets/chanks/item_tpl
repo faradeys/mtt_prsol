@@ -1,0 +1,5 @@
+<div class="item">
+    <img src="./[[*preview]]">
+    <div class="title">[[+pagetitle]]</div>
+    <div class="data">[[+publishedon:strtotime:date=`%d.%m.%Y`]] | <a href="[[~[[+id]]]]">Подробнее &gt;</a></div>
+</div>
