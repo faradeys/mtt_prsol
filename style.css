@@ -353,6 +353,9 @@ header .top_menu a:hover {
 	width: 100%;
 	font-style: italic;
 }
+.content .right_block .category a:hover {
+	text-decoration: underline;
+}
 .menu_bottom .bot_block .right_block a:hover {
 	color: #CCC;
 }
