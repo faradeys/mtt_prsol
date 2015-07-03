@@ -11,6 +11,7 @@
     'stati/mtt-obespechil-dlya-mts-lte-rouming-s-velikobritaniej-mts-lte-rouming-s-velikobritaniej.html' => 3,
     'stati/mtt-zapuskaet-videotelefoniyu-sovmestno-s-iqube-videotelefoniyu-sovmestno-s-iqube.html' => 4,
     'stati/mtt-podderzhal-blagotvoritelnyij-marafon-pervogo-kanala-«vsem-mirom».html' => 5,
+    'stati/test-test-test-test-test-test-test-test.html' => 9,
   ),
   'resourceMap' => 
   array (
@@ -26,6 +27,7 @@
       0 => 3,
       1 => 4,
       2 => 5,
+      3 => 9,
     ),
   ),
   'webLinkMap' => 

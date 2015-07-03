@@ -1,2 +1,2 @@
 <?php
-return '/Файлы';
+return '/Файлы/img';
