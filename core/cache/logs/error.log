@@ -35,3 +35,7 @@
 [2015-07-02 14:21:28] (ERROR @ /connectors/index.php) Error caching lexicon topic lexicon/en/core/setting
 [2015-07-02 14:38:54] (ERROR @ /connectors/index.php) Error caching lexicon topic lexicon/ru/core/namespace
 [2015-07-02 14:38:54] (ERROR @ /connectors/index.php) Error caching lexicon topic lexicon/en/core/setting
+[2015-07-03 09:40:34] (ERROR @ /manager/index.php) Error caching lexicon topic lexicon/ru/core/dashboard
+[2015-07-03 09:40:35] (ERROR @ /manager/index.php) Error caching script elements/modplugin/1
+[2015-07-03 09:40:35] (ERROR @ /manager/index.php) Error caching lexicon topic lexicon/en/ace/default
+[2015-07-03 09:40:35] (ERROR @ /manager/index.php) Error caching lexicon topic lexicon/ru/ace/default

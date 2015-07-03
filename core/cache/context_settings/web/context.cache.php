@@ -6,6 +6,7 @@
   array (
     'index.html' => 1,
     'stati.html' => 2,
+    'glavnaya.html' => 6,
     'stati/mtt-obespechil-dlya-mts-lte-rouming-s-velikobritaniej-mts-lte-rouming-s-velikobritaniej.html' => 3,
     'stati/mtt-zapuskaet-videotelefoniyu-sovmestno-s-iqube-videotelefoniyu-sovmestno-s-iqube.html' => 4,
     'stati/mtt-podderzhal-blagotvoritelnyij-marafon-pervogo-kanala-«vsem-mirom».html' => 5,
@@ -16,6 +17,7 @@
     array (
       0 => 1,
       1 => 2,
+      2 => 6,
     ),
     2 => 
     array (
@@ -59,8 +61,8 @@
     ),
     'OnRichTextEditorRegister' => 
     array (
-      2 => '2',
       1 => '1',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (
